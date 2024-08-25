@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "F:\\WS\\CSharp\\WindowsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\controllers\\powercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\controllers\\powercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\controllers\\powerchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\controllers\\powerchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\tools\\mailtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\tools\\mailtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\tools\\inifiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\tools\\inifiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\tools\\powerchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\tools\\powerchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|f:\\ws\\csharp\\windowsapi\\windowsapi\\windowsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{80A97281-8334-459B-B312-F854265E3C1B}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\windowsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,28 +34,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 246,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PowerController.cs",
-              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Controllers\\PowerController.cs",
-              "RelativeDocumentMoniker": "WindowsAPI\\Controllers\\PowerController.cs",
-              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Controllers\\PowerController.cs",
-              "RelativeToolTip": "WindowsAPI\\Controllers\\PowerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\Program.cs",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Program.cs",
+              "RelativeToolTip": "WindowsAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T08:02:50.139Z",
+              "WhenOpened": "2024-08-23T13:15:22.705Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IniFiles.cs",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\IniFiles.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\Tools\\IniFiles.cs",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\IniFiles.cs",
+              "RelativeToolTip": "WindowsAPI\\Tools\\IniFiles.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwE4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:14:35.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MailTool.cs",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\MailTool.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\Tools\\MailTool.cs",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\MailTool.cs",
+              "RelativeToolTip": "WindowsAPI\\Tools\\MailTool.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:08:13.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PowerChanger.cs",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\PowerChanger.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\Tools\\PowerChanger.cs",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Tools\\PowerChanger.cs",
+              "RelativeToolTip": "WindowsAPI\\Tools\\PowerChanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:22:48.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PowerChangeController.cs",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Controllers\\PowerChangeController.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\Controllers\\PowerChangeController.cs",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\Controllers\\PowerChangeController.cs",
+              "RelativeToolTip": "WindowsAPI\\Controllers\\PowerChangeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:22:42.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowsAPI",
+              "DocumentMoniker": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\WindowsAPI.csproj",
+              "RelativeDocumentMoniker": "WindowsAPI\\WindowsAPI.csproj",
+              "ToolTip": "F:\\WS\\CSharp\\WindowsAPI\\WindowsAPI\\WindowsAPI.csproj",
+              "RelativeToolTip": "WindowsAPI\\WindowsAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T03:25:16.943Z",
+              "EditorCaption": ""
             }
           ]
         }

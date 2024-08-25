@@ -4,7 +4,6 @@ F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\WindowsAPI.exe
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\WindowsAPI.deps.json
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\WindowsAPI.runtimeconfig.json
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\WindowsAPI.dll
-F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\WindowsAPI.pdb
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\WS\CSharp\WindowsAPI\WindowsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -27,6 +26,6 @@ F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\scopedcss\bundle\WindowsAPI.
 F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\WindowsAPI.csproj.Up2Date
 F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\WindowsAPI.dll
 F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\refint\WindowsAPI.dll
-F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\WindowsAPI.pdb
 F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\WindowsAPI.genruntimeconfig.cache
 F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\ref\WindowsAPI.dll
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Debug\net6.0\WindowsAPI.sourcelink.json

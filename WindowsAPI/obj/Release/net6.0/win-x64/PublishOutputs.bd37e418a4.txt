@@ -1,0 +1,3 @@
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\win-x64\PubTmp\Out\WindowsAPI.exe

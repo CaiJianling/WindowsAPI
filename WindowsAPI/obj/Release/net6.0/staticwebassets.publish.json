@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5DW2hD649vb0/f+ub866XBfxBXYacpVb7SvojGDpBvU=",
+  "Source": "WindowsAPI",
+  "BasePath": "_content/WindowsAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

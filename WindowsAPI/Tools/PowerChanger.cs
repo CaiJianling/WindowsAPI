@@ -7,6 +7,7 @@ namespace WindowsAPI.Tools
 {
     public class PowerChanger
     {
+
         [DllImport("user32")]
         public static extern bool ExitWindowsEx(uint uFlags, uint dwReason);
         /// <summary>
@@ -73,6 +74,9 @@ namespace WindowsAPI.Tools
             SetSuspendState(false, true, true);
         }
 
+        // 定时器
+        private static Timer timer;
+
         /// <summary>
         /// 休眠
         /// </summary>
@@ -83,11 +87,40 @@ namespace WindowsAPI.Tools
             if (tSecond < 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(tSecond), "时间不能为负数。");
-            } else if (tSecond == 0){
+            }
+            else if (tSecond == 0)
+            {
                 SetSuspendState(true, true, true);
-            } else {
-                string hibernateCommand = $"/c shutdown /h /t {tSecond}";
-                ExecuteCommandInCommandPrompt(hibernateCommand);
+            }
+            else
+            {
+                // 如果计时器已经存在，先取消它
+                if (timer != null)
+                {
+                    timer.Change(Timeout.Infinite, Timeout.Infinite);
+                    timer.Dispose();
+                }
+
+                // 设置一个新的计时器
+                timer = new Timer(state =>
+                {
+                    string hibernateCommand = $"/c shutdown /h";
+                    ExecuteCommandInCommandPrompt(hibernateCommand);
+                }, null, tSecond * 1000, Timeout.Infinite); // 将秒转换为毫秒
+            }
+        }
+
+        /// <summary>
+        /// 取消休眠计时器
+        /// </summary>
+        public static void CancelHibernate()
+        {
+            // 取消休眠计时器
+            if (timer != null)
+            {
+                timer.Change(Timeout.Infinite, Timeout.Infinite);
+                timer.Dispose();
+                timer = null;
             }
         }
 

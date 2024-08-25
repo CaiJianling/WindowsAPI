@@ -1,0 +1,10 @@
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\WindowsAPI.exe
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\WindowsAPI.dll
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\WindowsAPI.deps.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\WindowsAPI.runtimeconfig.json
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\WS\CSharp\WindowsAPI\WindowsAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

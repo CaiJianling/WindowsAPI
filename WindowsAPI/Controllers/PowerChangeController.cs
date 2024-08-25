@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
 using WindowsAPI.Tools;
 
@@ -121,6 +122,20 @@ namespace WindowsAPI.Controllers
             }
         }
 
+        [HttpPost("CancelHibernate")]
+        public IActionResult CancelHibernate()
+        {
+            try
+            {
+                PowerChanger.CancelHibernate();
+                return Ok("已取消休眠");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
 
         [HttpPost("CancelPowerChange")]
         public IActionResult CancelPowerChange()
@@ -128,7 +143,7 @@ namespace WindowsAPI.Controllers
             try
             {
                 PowerChanger.CancelShutdown();
-                return Ok("已取消计算机电源更改计划");
+                return Ok("已取消计算机电源状态更改计划");
             }
             catch (Exception ex)
             {
